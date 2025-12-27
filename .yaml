@@ -1,0 +1,96 @@
+Painel_Estoque_por_lote:
+  title: "Gestão Inteligente de Estoque por Lote & Recuperação de Margem"
+  description: >
+    Painel analítico que integra estoque por lote e data de vencimento com alertas
+    de risco baseados na relação entre dias de estoque e dias para vencimento.
+    
+    A solução aplica Regras de Associação (Apriori) para recomendar combos
+    comerciais inteligentes, permitindo a redução de estoque crítico com
+    menor impacto na margem.
+    
+    O projeto conecta dados logísticos, comerciais e financeiros para apoiar
+    decisões executivas e ações práticas de venda.
+  imagem: "C:\Users\gustavo.barbosa\Documents\Minha Page\images\Painel Estoque por lote.png"
+
+
+Painel_Vendas_Tempo_Real:
+  title: "Painel de Vendas em Tempo Real com Arquitetura de Alta Performance"
+  description: >
+    Painel de vendas atualizado a cada 30 minutos, sustentado por uma arquitetura
+    otimizada que permite acompanhamento quase em tempo real sem impacto
+    negativo no desempenho do banco de dados ou consumo excessivo de memória.
+    
+    A solução utiliza separação entre tabelas de histórico, staging e dados do
+    dia corrente, garantindo estabilidade, escalabilidade e alta performance.
+    
+    O painel exibe realizado versus meta em diferentes níveis de agrupamento,
+    sendo projetado para monitoramento contínuo em telas (TV), sem uso de filtros.
+  imagem: "C:\Users\gustavo.barbosa\Documents\Minha Page\images\Painel Vendas Tempo Real.jpg"
+
+
+Painel_Logistica:
+  title: "Painel de Eficiência Logística e Aproveitamento de Viagens"
+  description: >
+    Painel analítico voltado ao acompanhamento do aproveitamento de retorno das
+    viagens e ao monitoramento do nível de eficiência logística da operação.
+    
+    A solução apresenta o montante transportado por período, além de indicadores
+    de volume, número de viagens e produtividade operacional.
+    
+    Inclui rankings de produtos carregados por motorista, veículo e dia,
+    permitindo análises comparativas e identificação de oportunidades de
+    otimização logística.
+  imagem: "C:\Users\gustavo.barbosa\Documents\Minha Page\images\Painel Logistica.jpg"
+
+Painel_Cesta_de_Compras:
+  title: "Painel de Cesta de Compras com Regras de Associação (Apriori)"
+  description: >
+    Painel analítico que apresenta os resultados do algoritmo de associação
+    Apriori, identificando padrões de compra do tipo Produto A leva a Produto B.
+    
+    A solução exibe métricas estatísticas como Support, Confidence e Lift,
+    permitindo avaliação objetiva da força e relevância das associações.
+    
+    O painel é interativo, bastando selecionar um produto para visualizar
+    automaticamente suas associações e métricas correspondentes.
+  imagem: "C:\Users\gustavo.barbosa\Documents\Minha Page\images\Painel Cesta de Compras.jpg"
+
+
+Teste_AB_CTR_Pagina_Inicial:
+  title: "Teste A/B — Otimização de CTR na Página Inicial"
+  description: >
+    Projeto de experimentação estatística completo para avaliar o impacto de um novo layout
+    da página inicial sobre o CTR (Click-Through Rate), seguindo práticas de empresas com
+    alta maturidade em dados.
+    
+    O estudo abrange todo o ciclo experimental: definição de hipótese orientada a negócio,
+    estimativa de tamanho amostral (power analysis), randomização determinística via feature
+    flag, análises frequentistas, CUPED e bayesianas, além do monitoramento de métricas de
+    guardrail para proteção da experiência do usuário.
+    
+    Os resultados indicaram ganho estatisticamente significativo de +8,9% em CTR, sem impacto
+    negativo em métricas de qualidade, suportando a recomendação executiva de rollout da nova
+    variante.
+    
+    O projeto reforça o uso de evidência estatística para redução de incerteza e tomada de
+    decisão em produto, indo além de análises descritivas.
+  imagem: "C:\Users\gustavo.barbosa\Documents\Minha Page\images\A-B TEST.png"
+  colab: "https://colab.research.google.com/drive/1hRHIoYWX4n_j0c9QDQxdIcbqWdT-5QnY#scrollTo=16ad1146"
+
+
+Pipeline_ETL_Produtos:
+  title: "Pipeline de ETL em Python para Padronização e Classificação de Produtos"
+  description: >
+    Pipeline de ETL em Python desenvolvido para padronização e classificação de cadastros de produtos,
+    utilizando algoritmos de similaridade baseados na Distância de Levenshtein.
+    
+    A solução compara bases internas e externas, mesmo com descrições inconsistentes, aplicando
+    normalização avançada de texto e gerando um ranking dos melhores matches com score de similaridade.
+    
+    O projeto reduz duplicidades, melhora a qualidade cadastral e viabiliza análises de negócio mais
+    confiáveis, sendo especialmente útil em contextos de e-commerce, ERP e integração com fornecedores.
+  imagem: "C:\Users\gustavo.barbosa\Documents\Minha Page\images\levenhstein.png"
+
+
+EU:
+  minha_foto: "C:\Users\gustavo.barbosa\Documents\Minha Page\images\eu.jpg"
